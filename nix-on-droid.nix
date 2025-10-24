@@ -24,6 +24,7 @@
     #xz
     #zip
     #unzip
+
     fish
     helix
     nix-search-cli
@@ -35,7 +36,12 @@
     git
     yazi
     gh
+<<<<<<< Updated upstream
     openssh
+=======
+    p7zip
+    fzf
+>>>>>>> Stashed changes
   ];
 
   # Backup etc files instead of failing to activate generation if a file already exists in /etc
