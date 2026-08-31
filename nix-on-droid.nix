@@ -29,6 +29,7 @@
     home-manager
 
     # linux common
+    pueue
     htop
     util-linux
     busybox
@@ -91,4 +92,7 @@
       enable = true;
     };
   };
+
+  # system services
+  services.sshd.enable = true;
 }
